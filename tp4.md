@@ -19,3 +19,23 @@ commande=$1
 
 which -a $commande | xargs dpkg -S 2> /dev/null | cut -d":" -f1
 ```
+# Ecercice 3.
+```
+#!/bin/bash
+
+function param()
+{
+        param=$(apt list -a $1)
+        if [[ $param == *"installé"* ]]; then
+                 echo "INSTALLE"
+        else
+                echo "NON INSTALLE"
+        fi
+}
+
+param $1
+```
+
+# Exercice 4.
+
+`dpkg -L coreutils`
