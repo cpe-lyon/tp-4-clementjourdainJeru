@@ -42,4 +42,8 @@ On liste les programmes venant de coreutils avec `dpkg -L coreutils`. Le fichier
 
 # Exercice 5. 
 
-Il faut tout d'abord installer aptitude avec `sudo apt install aptitude`
+Il faut tout d'abord installer aptitude avec `sudo apt install aptitude`. Lynx est un navigateurs web en mode texte utilisable via une console ou un terminal, tandis que Emacs est  un éditeur de texte très puissant, extensible et personnalisable. Pour les installer avec aptitude il faut les chercher avec `/`, puis `+`, double g puis l'installer en tant que root.
+
+# Exercice 6.
+
+
